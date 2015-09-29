@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/myplugin/db" VERSION="20150916" COMMENT="XMLDB file for Moodle local/myplugin"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="question_obe" COMMENT="&quot;OBE category for a question&quot;" NEXT="assign_obe">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" NEXT="question"/>
+        <FIELD NAME="question" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="&quot;id of the question&quot;" PREVIOUS="id" NEXT="obe_category"/>
+        <FIELD NAME="obe_category" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="&quot;obe category of the question&quot;" PREVIOUS="question"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="assign_obe" COMMENT="Assignment OBE category" PREVIOUS="question_obe" NEXT="transmutation">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" NEXT="assignment"/>
+        <FIELD NAME="assignment" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Assignment id" PREVIOUS="id" NEXT="obe_category"/>
+        <FIELD NAME="obe_category" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="OBE category of assignment" PREVIOUS="assignment"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="transmutation" COMMENT="Transmutation table" PREVIOUS="assign_obe">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" NEXT="gradefrom"/>
+        <FIELD NAME="gradefrom" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" PREVIOUS="id" NEXT="gradeto"/>
+        <FIELD NAME="gradeto" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" PREVIOUS="gradefrom" NEXT="equivalent"/>
+        <FIELD NAME="equivalent" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" PREVIOUS="gradeto"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

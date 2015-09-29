@@ -1,0 +1,18 @@
+Time : 06:13:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question=10 SET answertext = 'A Sleyj'' at line 1
+Raw SQL : UPDATE match_sub WHERE question=10 SET answertext = 'A Sleyj'
+
+Time : 06:13:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question=9 SET `answertext` = answertext = 'A Sleyj'' at line 1
+Raw SQL : UPDATE match_sub WHERE question=9 SET `answertext` = answertext = 'A Sleyj'
+
+Time : 06:11:22
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 06:09:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question=4 SET `answertext` = 0 = 'A Sleyj'' at line 1
+Raw SQL : UPDATE match_sub WHERE question=4 SET `answertext` = 0 = 'A Sleyj'
+
+Time : 06:07:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question=3 SET 0 = 'A Sleyj'' at line 1
+Raw SQL : UPDATE match_sub WHERE question=3 SET 0 = 'A Sleyj'

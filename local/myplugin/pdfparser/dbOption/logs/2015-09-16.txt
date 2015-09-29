@@ -1,0 +1,22 @@
+Time : 13:17:56
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO mdl_transmutation(gradefrom, gradeto, equivalent) 	VALUES(:gradefrom,:gradeto,:equivalent)
+
+Time : 13:16:01
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.transmutation' doesn't exist
+Raw SQL : INSERT INTO transmutation(gradefrom, gradeto, equivalent) 	VALUES(:gradefrom,:gradeto,:equivalent)
+
+Time : 13:15:16
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.transmutation' doesn't exist
+Raw SQL : INSERT INTO transmutation(gradefrom, gradeto, equivalent) 	VALUES(:gradefrom,:gradeto,:equivalent)
+
+Time : 13:14:47
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.transmutation' doesn't exist
+Raw SQL : INSERT INTO transmutation(gradefrom, gradeto, equivalent) 	VALUES(:gradefrom,:gradeto,:equivalent)
+
+Time : 13:14:20
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.transmutation' doesn't exist
+Raw SQL : INSERT INTO transmutation(gradefrom, gradeto, equivalent) 	VALUES(:gradefrom,:gradeto,:equivalent)
+
+Time : 11:49:38
+SQLSTATE[HY000] [1049] Unknown database 'moodle_g'

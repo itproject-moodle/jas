@@ -1,0 +1,98 @@
+Time : 07:56:51
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 07:51:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Sleyj" WHERE `question` = "8"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "A",1 = "Sleyj" WHERE `question` = "8"
+
+Time : 07:51:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Sleyj" WHERE `question` = "7"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "A",1 = "Sleyj" WHERE `question` = "7"
+
+Time : 07:51:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Sleyj" WHERE `question` = "6"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "A",1 = "Sleyj" WHERE `question` = "6"
+
+Time : 07:51:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Sleyj" WHERE `question` = "5"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "A",1 = "Sleyj" WHERE `question` = "5"
+
+Time : 07:51:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= "Sleyj" WHERE `question` = "4"' at line 1
+Raw SQL : UPDATE match_sub SET answertext = "A", = "Sleyj" WHERE `question` = "4"
+
+Time : 07:47:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Array" WHERE `question` = "2"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "Array",1 = "Array" WHERE `question` = "2"
+
+Time : 07:46:33
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = "Sleyj" WHERE `question` = "1"' at line 1
+Raw SQL : UPDATE match_sub SET answertext0 = "A",1 = "Sleyj" WHERE `question` = "1"
+
+Time : 07:42:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "1"' at line 1
+Raw SQL : UPDATE match_sub SET answertext WHERE `question` = "1"
+
+Time : 07:36:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "9"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "9"
+
+Time : 07:36:06
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : UPDATE match_sub SET
+
+Time : 07:33:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "6"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "6"
+
+Time : 07:33:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "5"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "5"
+
+Time : 07:30:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "4"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "4"
+
+Time : 07:29:06
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0 = "6. Sledgehammer",1 = "Q Werk it",2 = "A Sleyj",3 = "Q Werk shit",4 = "A Asd' at line 1
+Raw SQL : UPDATE `match_sub` SET 0 = "6. Sledgehammer",1 = "Q Werk it",2 = "A Sleyj",3 = "Q Werk shit",4 = "A Asdf",5 = "Q ",6 = "A Heymer" WHERE `question` = "3"
+
+Time : 07:28:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "2"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "2"
+
+Time : 07:26:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `question` = "1"' at line 1
+Raw SQL : UPDATE `match_sub` SET  WHERE `question` = "1"
+
+Time : 06:45:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question = ?' at line 1
+Raw SQL : INSERT INTO match_sub(answertext) VALUES(:answertext) WHERE question = :i
+
+Time : 05:22:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question = ?' at line 1
+Raw SQL : INSERT INTO match_sub(answertext) VALUES(:answer) WHERE question = :i
+
+Time : 05:21:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question = ?' at line 1
+Raw SQL : INSERT INTO match_sub(answertext) VALUES(:answer) WHERE question = :i
+
+Time : 05:20:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE question = ?' at line 1
+Raw SQL : INSERT INTO match_sub(answertext) VALUES(:answertext) WHERE question = :i
+
+Time : 05:21:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = ?' at line 1
+Raw SQL : INSERT INTO match_sub(answertext) VALUES(:answertext) WHERE id = :i
+
+Time : 05:10:57
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO match_sub(code, question, questiontext) VALUES(:code, :question, :questiontext, :answertext)
+
+Time : 05:10:14
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO match_sub(code, question, questiontext) VALUES(:code, :question, :questiontext, :answertext)
+
+Time : 05:09:15
+SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Raw SQL : INSERT INTO match_sub(code, question, questiontext) VALUES(:code, :question, :questiontext, :answertext)

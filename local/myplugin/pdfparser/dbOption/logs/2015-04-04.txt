@@ -1,0 +1,2 @@
+Time : 05:36:37
+SQLSTATE[HY000] [1049] Unknown database 'parse'

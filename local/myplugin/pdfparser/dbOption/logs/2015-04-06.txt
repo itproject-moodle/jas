@@ -1,0 +1,7 @@
+Time : 10:51:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mc_answers' in 'field list'
+Raw SQL : INSERT INTO multichoice(question, mc_answers) VALUES(:question, :mc_anwers)
+
+Time : 10:49:34
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mc_answers' in 'field list'
+Raw SQL : INSERT INTO multichoice(question, mc_answers) VALUES(:question, :mc_answers)
